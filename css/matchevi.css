@@ -1,0 +1,41 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin:0;
+	background-color: 	#FFE4B5;
+	
+	
+}
+html{
+	height: 100%;
+}
+
+hr {
+  border-top: 10px dotted orange;
+  margin: 20px auto;
+}
+a{
+	text-decoration: none;
+	margin-left: 10px; 
+	padding: 20px;
+	color: black;
+}
+
+#matches_box div{
+	border:solid 2px black;
+	border-radius: 25px;
+	margin-bottom:10px;
+	padding-top: 10px;
+	padding-left: 50px;
+	margin-right: 20px;
+	margin-left:20px;
+}
+
+
+a:visited {
+  color: black;
+}
+a:hover {
+  background-image: linear-gradient(to top right, white, orange);
+  border-radius: 25px;
+}

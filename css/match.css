@@ -1,0 +1,70 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin:0;
+	background-color: 	#FFE4B5;
+	
+	
+}
+html{
+	height: 100%;
+}
+button{
+	height: 25px;
+	width: 100px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: 2px solid black;   
+}
+hr {
+  border-top: 10px dotted orange;
+  margin: 20px auto;
+}
+a{
+	text-decoration: none;
+	margin-left: 10px; 
+	padding: 20px;
+	color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  background-image: linear-gradient(to top right, white, orange);
+  border-radius: 25px;
+}
+.filter{
+	width: 30%;
+	background-image: linear-gradient(to top right, white, orange);
+	margin: auto;
+	text-align: center;
+	border-radius: 25px;
+}
+input{
+	margin-bottom: 15px;
+}
+#match_profiles_box{
+	width: 70%;
+	background-image: linear-gradient(to top right, white, orange);
+	margin: auto;	
+	border-radius: 25px;
+}
+
+#match_profiles_box div{
+	border:solid 2px black;
+	border-radius: 25px;
+	margin-bottom:10px;
+	padding-top: 10px;
+	padding-left: 50px;
+	margin-right: 20px;
+	margin-left:20px;
+}
+
+span:nth-child(1){
+	display:table;
+    margin:0 auto;
+}
+

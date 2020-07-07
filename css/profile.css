@@ -1,0 +1,48 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin:0;
+	background-color: 	#FFE4B5;
+	
+}
+html{
+	height: 100%;
+}
+.mid{
+	width: 30%;
+	height: 50%;
+	background-image: linear-gradient(to top right, white, orange);
+	margin: auto;
+	text-align: center;
+	border-radius: 25px;
+	padding: 30px;
+}
+hr {
+  border-top: 10px dotted orange;
+  margin: 20px auto;
+}
+a{
+	text-decoration: none;
+	margin-left: 10px; 
+	padding: 20px;
+	color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  background-image: linear-gradient(to top right, white, orange);
+  border-radius: 25px;
+}
+button{
+	height: 25px;
+	width: 100px;
+	margin-top: 20px;
+	background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px; 
+}
+#username{
+	margin:10px auto;
+}

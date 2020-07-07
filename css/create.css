@@ -1,0 +1,56 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin:0;
+	background-color: 	#FFE4B5;
+	
+}
+html{
+	height: 100%;
+}
+.mid{
+	width: 50%;
+	height: 70%;
+	background-image: linear-gradient(to top right, white, orange);
+	margin: auto;
+	
+	border-radius: 25px;
+	padding: 30px;
+}
+p{
+	display: inline;
+	margin-left: 20%;
+	margin-bottom: 10px;
+}
+#slike_box{
+	text-align: center;
+	margin-top :10px;
+	margin-bottom :10px;
+}
+input{
+	display: inline;
+	margin-bottom: 10px;
+	
+	
+}
+button{
+	height: 25px;
+	width: 100px;
+	margin: 45%;
+	margin-top: 20px;
+	background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+/*
+#slike_box input {
+    visibility: hidden;
+}
+#slike_box img{
+    cursor: pointer;
+}
+#slike_box input:checked + img{
+    background-color: blue;
+}*/
